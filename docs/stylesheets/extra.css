@@ -1,0 +1,15 @@
+p {
+    text-align: justify;
+}
+
+
+/* Centrer un élément (une image) */
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Ajouter un box-shadow à un élément */ 
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
