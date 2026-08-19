@@ -52,11 +52,29 @@ nav = [
     {"Gestions des projets" = "notes/workspace/creation.md"},
     {"Extrait de code" = "notes/workspace/snippet.md"},
   ]},
-#  { "Notes de cours" = [
-#    { "Notes de cours" = [
-#      { "HTML" = [
-#        { "Début" = "notes/html/test_html.md" },
-#      ]},
+  { "Notes de cours" = [
+    { "Notes de cours" = [
+      { "HTML" = [
+        { "Le langage HTML" = "notes/html/langage.md" },
+        { "Structure de fichiers" = "notes/html/site.md" },
+        { "Structure d'une page HTML" = "notes/html/structure.md" },
+        { "Les balises" = "notes/html/tag.md" },
+        { "Balise Meta" = "notes/html/meta.md" },
+        { "Balises sémantiques" = "notes/html/semantique.md" },
+        { "Balises de texte" = "notes/html/texte.md" },
+        { "Lien hypertexte" = "notes/html/lien.md" },
+        { "Les listes" = "notes/html/liste.md" },
+        { "Bonnes pratiques du langage" = "notes/html/pratiques.md" },
+        { "Les chemins relatifs" = "notes/html/relative_path.md" },
+      ]},
+      { "Les images" = [
+        { "Type d'images" = "notes/images/image_type.md" },
+        { "Les balises images" = "notes/images/image_balise.md" },
+        { "Optimiser les images d'un site Web" = "notes/images/image_optimisation.md" },
+        { "Les favicons" = "notes/images/image_favicon.md" },
+        { "Les images SVG" = "notes/images/image_svg.md" },
+      ]},
+      { "Ressources utiles" = "notes/ressources.md" },
 #      { "test" = [
 #        { "sections" = [
 #          { "Début css" = "notes/css/test_css.md" },
@@ -65,10 +83,12 @@ nav = [
 #      { "CSS" = [
 #        { "Début css" = "notes/css/test_css.md" },
 #      ]},
-#    ]},
-#  ]},
+    ]},
+  ]},
   { "Exercices" = [
-    { "00 - Environnement de développement" = "exercices/00_environnement.md" },
+    { "00 - Environnement de développement" = "exercices/ex00_environnement.md" },
+    { "01 - Structure de page HTML et texte" = "exercices/ex01_text_structure.md" },
+    { "02 - Présentation d'un pays" = "exercices/ex02_image.md" },
   ]},
 ]
 
