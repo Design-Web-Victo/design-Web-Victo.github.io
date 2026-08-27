@@ -53,7 +53,7 @@ nav = [
     {"Extrait de code" = "notes/workspace/snippet.md"},
   ]},
   { "Notes de cours" = [
-    { "Notes de cours" = [
+    #{ "Notes de cours" = [
       { "HTML" = [
         { "Le langage HTML" = "notes/html/langage.md" },
         { "Structure de fichiers" = "notes/html/site.md" },
@@ -75,15 +75,7 @@ nav = [
         { "Les images SVG" = "notes/images/image_svg.md" },
       ]},
       { "Ressources utiles" = "notes/ressources.md" },
-#      { "test" = [
-#        { "sections" = [
-#          { "Début css" = "notes/css/test_css.md" },
-#        ]},
-#      ]},
-#      { "CSS" = [
-#        { "Début css" = "notes/css/test_css.md" },
-#      ]},
-    ]},
+    #]},
   ]},
   { "Exercices" = [
     { "00 - Environnement de développement" = "exercices/ex00_environnement.md" },
@@ -167,8 +159,8 @@ features = [
     "navigation.indexes",
     "navigation.instant",
     "navigation.instant.prefetch",
-    # "navigation.path",
-    "navigation.sections",
+    #"navigation.path",
+    #"navigation.sections",
     "navigation.tabs",
     "navigation.tabs.sticky",
     "navigation.top",

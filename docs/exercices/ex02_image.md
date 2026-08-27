@@ -10,18 +10,19 @@
 
 - Creez un répertoire nommé **ex02_pays** dans votre répertoire **designweb**.
 - Dans ce répertoire créez un répertoire **assets** et dans celui-ci un sous-répertoire **images** 
-- Créez un fichier **noDA_index.html** et un fichier **noDA_paysage.html** à la racine du projet avec la structure de base d'une page web.
+- Créez un fichier **index.html** et un fichier **noDA_paysage.html** à la racine du projet avec la structure de base d'une page web.
 - Effectuez les ajouts suivants dans les deux fichiers.
 
-!!! attention "Important"
+!!! warning "Important"
 
-    Pour cette exercice, TOUS vos fichiers doivent avoir le préfixe **noDA_** (2541234_index.html, 2541234_Volcan.png, etc.)
+    Pour cette exercice, TOUS vos fichiers doivent avoir le préfixe **noDA_** (2541234_paysage.html, 2541234_Volcan.png, etc.)
+    à l'exception de votre fichier **index.html**
 
 ### Recherche de medias
 
 Dans ce travail vous allez créer une page d'information sur le pays de votre choix et une page affichant des photos de paysage du pays.
 
-- Choisissez un pays avec lequel travailler
+- Choisissez un pays avec lequel travailler. Si vous êtes en manque d'inspiration essayer le [Country Picker Wheel](https://pickerwheel.com/tools/random-country-generator/){target=_blank}
 - Demandez à ChatGPT de vous faire une description de 500 mots sur le pays.
 - Accédez à la page Wikipedia pour récupérer des informations (vous en aurez besoin plus loin).
 
@@ -31,11 +32,11 @@ Pour ce travail vous allez devoir utiliser la balise `<details>`. Faites une rec
 
 ### Favicon
 
-Dans votre page **noDA_index.html** vous devez ajouter un favicon en format ICO du drapeau du pays. 
+Dans votre page **index.html** vous devez ajouter un favicon en format ICO du drapeau du pays. 
 
 - L'image du drapeau peut être téléchargée depuis la page Wikipedia de votre pays.
 - Utilisez le site [https://www.favicon.cc/](https://www.favicon.cc/){target=_blank} pour créer votre icône. Vous pouvez facilement téléverser une image et la convertir.
-
+- Ajoutez le favicon à vos deux pages HTML.
 
 ## index.html
 
@@ -46,11 +47,17 @@ Utilisez les balises sémantiques qui vous semble les plus appropriées pour fai
   <figcaption><a href="../../images/ex02_layout_index.png" target="_blank">Ouvrir en taille réelle</a></figcaption>
 </figure>
 
+Le nom de la page (balise `<title>`) est le nom de votre pays.
+
+### Entête
+
+- Ajoutez simplement le nom du pays comme titre de niveau 1
+
 ### Section "En bref"
 
 - Utilisez un titre de niveau 2 pour le sous-titre `En bref`.
 - Insérez ensuite une liste à puces numérotées.
-- Chaque items de la liste est une balise `<details>`.
+- Dans chaque items de la liste il y a une balise `<details>`.
 - Le texte des `<summary>` doit être en caractère gras.
 - Voici plus de détail sur chaque item de la liste.
 
@@ -62,21 +69,21 @@ Utilisez les balises sémantiques qui vous semble les plus appropriées pour fai
 #### 2. Paysage
 
 - Trouvez une photo d'un paysage de votre pays et utilisez la balise `<figure>`
+- L'image doit avoir au maximum 600 pixels. Si elle est plus grande faites les ajustements nécessaire.
 - Dans une balise `<figcaption>`, insérez un lien vers la page **noDA_paysage.html** et assurez-vous qu'elle s'ouvre dans un nouvel onglet.
 - Le texte du lien est `Voir plus d'images`
 
 #### 3. Sources
 
 - Une liste à puces numérotées pour donner les sources de votre recherche
-- Pour la référence à ChatGPT (que vous allez utiliser pour générer le texte plus bas), demandez lui comment le citer correctement selon la norme APA7 et ajoutez la référence au point 1.
+- Pour la référence à ChatGPT (que vous avez utilisé pour générer le texte plus bas), demandez lui comment le citer correctement selon la norme APA7 et ajoutez la référence au point 1.
 - À l'item 2, ajoutez une référence à la page Wikipedia où vous avez trouvé les informations sur votre pays.
 - Enfin ajoutez une référence au site où vous avez trouvez l'image.
 - Terminez cette section par un trait horizontale.
 
 ### Texte descriptif
 
-- Demandez à ChatGPT de vous écrire un texte de 500 mots sur votre pays.
-- Copiez se texte à la suite de la page et formatez le correctement en paragraphes.
+- Copiez le texte que vous a généré ChatGPT à la suite de la page et **formatez le correctement en paragraphes**.
 
 ### Note de bas de page
 
@@ -98,7 +105,7 @@ Utilisez les balises sémantiques qui vous semble les plus appropriées pour fai
 - Sous le titre ajoutez un icône qui représente un retour à l'acceuil. 
 - L'icône doit être au format SVG, soit un fichier de ce type ou la balise `<svg>`
 - Faites vos recherche sur [Google icon](https://fonts.google.com/icons){target=_blank} ou [Font awesome](https://fontawesome.com/){target=_blank}
-- Ajoutez un lien sur l'onglet qui redirige vers la page **noDA_index.html**
+- Ajoutez un lien sur l'onglet qui redirige vers la page **index.html**
 
 #### Les images
 
