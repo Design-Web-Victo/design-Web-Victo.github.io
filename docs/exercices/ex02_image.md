@@ -10,13 +10,8 @@
 
 - Creez un répertoire nommé **ex02_pays** dans votre répertoire **designweb**.
 - Dans ce répertoire créez un répertoire **assets** et dans celui-ci un sous-répertoire **images** 
-- Créez un fichier **index.html** et un fichier **noDA_paysage.html** à la racine du projet avec la structure de base d'une page web.
+- Créez un fichier **index.html** et un fichier **paysage.html** à la racine du projet avec la structure de base d'une page web.
 - Effectuez les ajouts suivants dans les deux fichiers.
-
-!!! warning "Important"
-
-    Pour cette exercice, TOUS vos fichiers doivent avoir le préfixe **noDA_** (2541234_paysage.html, 2541234_Volcan.png, etc.)
-    à l'exception de votre fichier **index.html**
 
 ### Recherche de medias
 
@@ -70,7 +65,7 @@ Le nom de la page (balise `<title>`) est le nom de votre pays.
 
 - Trouvez une photo d'un paysage de votre pays et utilisez la balise `<figure>`
 - L'image doit avoir au maximum 600 pixels. Si elle est plus grande faites les ajustements nécessaire.
-- Dans une balise `<figcaption>`, insérez un lien vers la page **noDA_paysage.html** et assurez-vous qu'elle s'ouvre dans un nouvel onglet.
+- Dans une balise `<figcaption>`, insérez un lien vers la page **paysage.html** et assurez-vous qu'elle s'ouvre dans un nouvel onglet.
 - Le texte du lien est `Voir plus d'images`
 
 #### 3. Sources
@@ -87,7 +82,7 @@ Le nom de la page (balise `<title>`) est le nom de votre pays.
 
 ### Note de bas de page
 
-- Inscrivez à la toute fin de la page le texte `Conception [Votre Nom] - 2025`.
+- Inscrivez à la toute fin de la page le texte `Conception [Votre Nom] - 2026`.
 - Formatez le texte à votre guise.
 
 ---
