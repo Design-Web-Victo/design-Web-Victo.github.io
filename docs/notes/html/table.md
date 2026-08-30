@@ -53,32 +53,93 @@ Exemple complet avec balises de regroupement d'un tableau de 2 ligne et 3 colonn
 </table>
 ```
 
+
+<figure markdown>
+  ![exemple de tableau](../../images/html_table.png){.center .shadow}
+  <figcaption>Résultat de l'exemple</figcaption>
+</figure>
+
 ## Fusionner des lignes et des colonnes
 
 Pour fusionner des lignes, on peut ajouter l'attribut `rowspan` à une balise `<td>`. La valeur de `rowspan` correspont au nombre de lignes qu'on veut fusionner en comptant celle où il est déclaré. Sur les lignes suivantes, on doit omettre de déclarer la cellule qui est fusionnée avec la ligne précédente.
 
 ```html
-<tr>
-    <td rowspan="2">Cellule fusionné</td>
-    <td>ligne 1</td>
-</tr>
-<tr>
-    <!-- Ici on ne redéclare pas la cellule -->
-    <td>ligne 2</td>
-</tr>
+<table border="1">
+  <!-- Entête -->
+  <tr>
+      <th>Colonne 1</th>
+      <th>Colonne 2</th>
+  </tr>
+  <!-- Ligne 1 -->
+  <tr>
+      <td rowspan="2">Cellule fusionné</td>
+      <td>ligne 1</td>
+  </tr>
+  <!-- Ligne 2 -->
+  <tr>
+      <!-- Ici on ne redéclare pas la cellule -->
+      <td>ligne 2</td>
+  </tr>
+</table>
 ```
+
+<figure markdown>
+  ![Exemple de rowspan](../../images/html_table_rowspan.png){.center .shadow}
+  <figcaption>Exemple d'une fusion de ligne</figcaption>
+</figure>
 
 Pour les colonnes, c'est l'attribut `colspan` qu'on doit utiliser. La valeur correspont aux nombres de cellules à droite qu'on veut fusionner.
 
 ```html
-<tr>
-    <td colspan="2">Ligne 1 Cellule fusionné</td>
-</tr>
-<tr>
-    <td>ligne 2 Cellule 1</td>
-    <td>ligne 2 Cellule 2</td>
-</tr>
+<table border="1">
+  <!-- Entête -->
+  <tr>
+      <th>Colonne 1</th>
+      <th>Colonne 2</th>
+  </tr>
+  <!-- Ligne 1 -->
+  <tr>
+      <td colspan="2">Cellule fusionné</td>
+  </tr>
+  <!-- Ligne 2 -->
+  <tr>
+      <td>Cellule 1</td>
+      <td>Cellule 2</td>
+  </tr>
+</table>
 ```
+
+<figure markdown>
+  ![Exemple de colspan](../../images/html_table_colspan.png){.center .shadow}
+  <figcaption>Exemple d'une fusion de colonne</figcaption>
+</figure>
+
+On peut aussi jumeler les attributs `rowspan` et `colspan`.
+
+```html
+<table border="1">
+  <!-- Entête -->
+  <tr>
+      <th>Colonne 1</th>
+      <th>Colonne 2</th>
+      <th>Colonne 3</th>
+  </tr>
+  <!-- Ligne 1 -->
+  <tr>
+      <td>ligne 1</td>
+      <td colspan="2" rowspan="2">Cellule fusionné</td>
+  </tr>
+  <!-- Ligne 2 -->
+  <tr>
+      <td>ligne 2</td>
+  </tr>
+</table>
+```
+
+<figure markdown>
+  ![Exemple de colspan](../../images/html_table_mix.png){.center .shadow}
+  <figcaption>Exemple d'une fusion de ligne et colonne</figcaption>
+</figure>
 
 ## Source
 

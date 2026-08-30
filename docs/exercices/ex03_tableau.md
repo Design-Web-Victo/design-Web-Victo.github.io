@@ -12,7 +12,7 @@
 - Dans ce répertoire créez un répertoire **assets** et dans celui-ci un sous-répertoire **images** 
 - Créez un répertoire **css** à la racine de votre projet
 - Créez un fichier **index.html** à la racine du projet avec la structure de base d'une page web (Utilisez un extrait de code).
-- Téléchargez les ressources de l'exercice : [ex03_ressources.zip](../files/ex03_ressources.zip)
+- Téléchargez les ressources de l'exercice : [ex03_ressources.zip](../ressources/ex03_ressources.zip)
 - Copiez les images dans le répertoire **images** et le fichier css dans le répertoire **css**
 - Nous allons utiliser le fichier css pour valider votre tableau
 
@@ -30,7 +30,7 @@ Voici en image le tableau que vous devez reproduire
     - Utilisez la balise `<caption>` pour donner le titre *Butin de structure* au tableau
     - Les deux premières lignes du tableau sont dans l'entête du tableau
     - Les lignes "Pioche en fer" composent le corps du tableau
-    - La ligne source est dans le pied-de-page
+    - La cellule `Source` est dans le pied du tableau
 3. Les textes **Pioche en fer**, **Forts**, **Puits de mine** et **Village** sont en caractère gras
 4. Les images à utiliser sont dans les ressources à télécharger. Elles sont déjà de la bonne dimension.
 5. Voici les url à utiliser pour les différents liens : 
