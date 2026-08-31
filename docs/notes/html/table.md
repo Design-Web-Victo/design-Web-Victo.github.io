@@ -13,11 +13,12 @@ En html, les tableaux servent à représenter des données structurées en ligne
 Dans un tableau, on commence toujours par définir une ligne et ensuite les cellules de cette ligne. On ne défini jamais de colonne, c'est avec les cellules qu'on va le faire.
 
 On peut aussi ajouté des balises de regroupement qui aident à structurer notre tableau.
+
 - `<thead>` : Regroupe l’en-tête du tableau.
 - `<tbody>` : Contient le corps principal du tableau (les données).
 - `<tfoot>` : Regroupe le pied de tableau (souvent utilisé pour des totaux ou des notes).
 
-Exemple complet avec balises de regroupement d'un tableau de 2 ligne et 3 colonnes. L'attribut `border="1"` ajoute une ligne et un espacement entre toutes les cellules.
+Exemple complet avec balises de regroupement d'un tableau de 2 ligne et 3 colonnes. L'attribut `border="1"` ajoute une ligne de bordure et un espacement entre toutes les cellules.
 
 ```html
 <table border="1">

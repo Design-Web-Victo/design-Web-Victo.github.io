@@ -46,7 +46,9 @@ On peut remonter de plus d'un niveau.
 
 On va utiliser une combinaison des caractères `..` et des noms de répertoire pour se diriger vers la destination.
 
-```css title="" hl_lines="2"
+Dans cet exemple je suis dans le fichier page.html et je veux afficher l'image logo.png
+
+```css title="" hl_lines="3"
 /projet/
  ├── html/
  │    └── page.html
