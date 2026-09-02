@@ -88,6 +88,7 @@ nav = [
     { "04 - Intégration multimedia" = "exercices/ex04_multimedia.md" },
     { "05 - Modification d'une maquette" = "exercices/ex05_maquette.md" },
   ]},
+  { "Utilisation de l'ia" = "utilisation_ia.md" },
 ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
@@ -98,7 +99,10 @@ nav = [
 #
 # Read more: https://zensical.org/docs/customization/#additional-css
 #
-extra_css = ["stylesheets/extra.css"]
+extra_css = [
+  "stylesheets/extra.css",
+  "stylesheets/niveau_ia.css",
+]
 
 # With the `extra_javascript` option you can add your own JavaScript to your
 # project to customize the behavior according to your needs.
@@ -273,3 +277,6 @@ combine_header_slug = true
 [project.markdown_extensions.pymdownx.tasklist]
 custom_checkbox = true
 [project.markdown_extensions.pymdownx.tilde]
+[project.markdown_extensions.pymdownx.snippets]
+base_path = ["docs"]
+check_paths = true

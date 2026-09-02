@@ -35,7 +35,7 @@ Ici je vous offre deux choix :
 ### Choix 2 - Intégrer un album bandcamp
 
 - Ajoutez un nouveau *details* à la liste à puce numéroté entre **Paysage** et **Sources**. Le texte du *summary* est **Nom du pays en musique**
-- Sur le site [Bandcamp](https://bandcamp.com/){target=_blank}, faites une recherche pour un artiste de votre pays : [Page de recherche]([https://bandcamp.com/discover){target=_blank}
+- Sur le site [Bandcamp](https://bandcamp.com/){target=_blank}, faites une recherche pour un artiste de votre pays : [Page de recherche](https://bandcamp.com/discover){target=_blank}
 
 <figure markdown>
   ![ex04_bandcamp01.png](../images/ex04_bandcamp01.png){.center .shadow}
@@ -51,14 +51,14 @@ Ici je vous offre deux choix :
   ![ex04_bandcamp02.png](../images/ex04_bandcamp02.png){.center .shadow}
 </figure>
 
-## Intégrer une carte Google Maps
+## Intégrer une carte Open Street Map
 
 - Ajoutez une section entre la fin de votre texte et votre signature.
 - Le titre de la section sera **Carte de nom du pays** de sera de niveau 2.
-- Sur [Google Maps](https://www.google.ca/maps?hl=fr){target=_blank}, faites une recherche de votre pays.
-- Cliquez sur **Partager** et **Intégrer une carte**.
-- Choissisez le format de carte désiré et copiez le code *iframe* dans la section.
+- Sur [Open Street Map](https://www.openstreetmap.org){target=_blank}, faites une recherche de votre pays.
+- Cliquez sur l'**icone de partage** à gauche et choisissez HTML.
+- Copiez le code et collez le dans votre page
 
 <figure markdown>
-  ![ex04_googlemaps.png](../images/ex04_googlemaps.png){.center .shadow}
+  ![ex04_googlemaps.png](../images/ex04_openstreetmap.png){.center .shadow}
 </figure>
