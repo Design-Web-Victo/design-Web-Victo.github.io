@@ -22,6 +22,19 @@ les principes suivants:
 
 L'utilisation en évaluation est strictement interdite. Tout manquement à cette restriction peut être sujet aux sanctions applicables (tricherie et plagiat, retrait de la classe ou refus de répondre aux questions) telles que décrites dans la PDEA.
 
+Veillez aussi à respecter les points suivants dans VS Code: 
+
+- En tout temps la fenêtre de conversation avec Copilot doit être fermé.
+- Les suggestions "inline" doivent être désactivées
+
+Pour désactiver les suggestions, cliquez sur l'icône Copilot dans la barre de statut en bas de l'éditeur.
+Décochez ensuite les trois cases de la section "Suggestions inline". L'icône dans la barre de tâche devrait changer pour indiquer que c'est maintenant désactivé.
+
+<figure markdown>
+  ![copilot.png](images/copilot.png){.center .shadow}
+  <figcaption></figcaption>
+</figure>
+
 ## Utilisation dans la conception des notes et activités
 
 <section class="niveau-ia-production">

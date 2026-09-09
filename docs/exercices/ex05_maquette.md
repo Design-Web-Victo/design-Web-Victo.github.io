@@ -15,7 +15,6 @@ Dans cet exercice vous devez modifier les informations d'une maquette d'un site 
 - Vous pourrez y revenir si vos modifications brise la mise en page de la maquette originale. 
 - Modifiez le titre de la page pour **Exercice 05 - Maquette** et ajoutez un favicon de votre choix.
 - Effectuez les modifications demandées.
-- Une fois l'exercice terminé, compressez votre projet et remettez le sur Teams.
 
 
 ## Sections du site à masquer
@@ -33,8 +32,8 @@ Dans cet exercice vous devez modifier les informations d'une maquette d'un site 
 </figure>
 
 - Modifiez le pour que: 
-    - Le troisième item pointe vers la section *Education* et non *Service*
-    - Supprimez le 4e item
+    - Le troisième item doit pointer vers la section *Education* et non *Service*. Faites les modifications nécessaire.
+    - Supprimez le 4e item (Blog)
     - Modifiez le 5e item pour qu'il pointe sur la section *Testimonial* et non *Contact*
 
 ## Traduction des textes
