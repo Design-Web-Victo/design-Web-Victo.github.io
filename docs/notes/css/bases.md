@@ -4,7 +4,20 @@ Le CSS (Cascading Style Sheet ou en français feuilles de style en cascade) est 
 
 ## Syntaxe
 
-Une règle CSS consiste en un sélecteur et un bloc de déclaration formé d'une série de déclarations "propriété : valeur". Le bloc de déclaration début par une accolade {=={==} et est suivi par une série de déclarations séparées par un point-virgule. Elle se termine par la fermeture de l'accolade. 
+Une règle CSS consiste en un sélecteur et un bloc de déclaration formé d'une série de déclarations "propriété : valeur". 
+Le bloc de déclaration débute par une accolade et est suivi par une série de paires propriétés/valeurs séparées par un point-virgule. 
+Elle se termine par la fermeture de l'accolade. 
+
+```css title="Syntaxe d'une règle css"
+sélecteur {
+    propriété: valeur;
+    propriété: valeur;
+}
+```
+
+!!! note
+
+    N'oubliez pas qu'en css on utilise le caractère ` : ` pour définir une valeur à une propriété et non un symbole ` = `
 
 Prenons l'exemple suivant 
 
@@ -14,19 +27,24 @@ h1 {
     font-size: 5em;
 }
 ```
-Le sélecteur ici est la balise h1, donc la règle sera appliquée à toutes les balises h1 du fichier HTML. Ensuite dans le bloc de déclaration, la première ligne applique la valeur **red** à la propriété **color**, le texte dans les balises h1 sera de couleur rouge. Finalement la deuxième ligne indique d'augmenter la taille de la police à 5em, une valeur relative qui indique de l'augmenter de 5 fois la taille courante. (Nous verrons les unités de mesure CSS plus loin)
 
-Quand le css est inclus en attribut directement dans la balise, on dit *inline*, la syntaxe est un peu différente. on indique seulement les paires propriétés-valeur sans spécifier de sélecteur et sans les accolades. L'attribut à utiliser est **style**.
+1. Le sélecteur ici est la balise **h1**, donc la règle sera appliquée à toutes les balises **h1** du fichier HTML
+2. Ensuite dans le bloc de déclaration, la première ligne applique la valeur **red** à la propriété **color**, le texte dans les balises h1 sera de couleur rouge. 
+3. Finalement la deuxième ligne indique d'augmenter la taille de la police à **5em**, une valeur relative qui indique de l'augmenter de 5 fois la taille courante. (Nous verrons les unités de mesure CSS plus loin)
+
+Quand le css est inclus en attribut directement dans la balise, on dit *inline*, la syntaxe est un peu différente. 
+on indique seulement les paires propriétés-valeur sans spécifier de sélecteur et sans les accolades, le sélecteur étant la balise dans laquelle on ajoute les règles. 
+L'attribut à utiliser est **style**.
 
 La même règle que plus haut, mais directement ajouté dans la balise
 
-```css
+```css title="Ajout de css avec l'attribut style"
 < h1 style="color:red;font-size:5em;" >
 ```
 
 On peut ajouter des commentaires en encadrant notre texte par les symboles `/*` et `*/`
 
-```css
+```css title="Commentaire en css"
 /* Un commentaire sur une ligne */
 
 /* Un commentaire sur 
@@ -44,16 +62,14 @@ h1 {
 Il existe trois méthodes pour ajouter des règles css à un fichier HTLM : 
 
 - Par une fichier externe
-- Avec la balise style
+- Avec la balise `<style>`
 - Directement dans une balise HTML avec l'attribut style
 
 ### Feuille de style externe
 
 Les règles sont inscrites dans un fichier portant l'extension **css**. C'est la méthode la plus commune et efficace d'inclure du css dans les pages web. Le fichier css peut être relié à plus d'un fichier html, ce qui facilite l'uniformité d'un site internet et évite beaucoup de répétition.
 
-fichier **style.css**
-
-```css
+```css title="Règles dans un fichier css"
 h1 {
 	color: red;
     font-size: 5em;
@@ -62,7 +78,7 @@ h1 {
 
 On lie le ou les fichiers css au fichier HTML avec la balise **link** qu'on ajoute dans la balise **head**. L'attribut **href** donnera le chemin vers le fichier css et l'attribut **rel** indiquera vers quel type de ressource un fais le lien, ici stylesheet pour feuille de style.
 
-```css hl_lines="7"
+```css title="Ajout du lien vers le fichier css" hl_lines="7"
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -72,12 +88,15 @@ On lie le ou les fichiers css au fichier HTML avec la balise **link** qu'on ajou
     <link rel="stylesheet" href="styles.css"> 
 </head>
 ```
-Dans cette exemple, on lie le fichier styles.css à notre fichier HTML.
+Dans cette exemple, on lie le fichier **styles.css** à notre fichier HTML.
+
+Si on a plusieurs fichiers css à relier à notre page HTML, on doit ajouter une balise `<link>` par fichier.
 
 ### Feuille de style interne
 
 On peut aussi ajouter les règles directement dans le fichier HTML en utilisant la balise **style**. Pour plus de clarté et de lisibilité je vous suggère d'ajouter votre code à l'intérieur de la balise **head** mais on peut aussi l'ajouter n'importe où dans la page. 
-```css
+
+```css title="Ajout avec la balise style" hl_lines="5 10"
 <head>
 	<meta charset="utf-8">
     <title>Mon portfolio</title>
@@ -93,11 +112,18 @@ On peut aussi ajouter les règles directement dans le fichier HTML en utilisant 
 
 ### Styles en ligne
 
-La dernière méthode consiste à inclure les règles directement dans une balise html en utilisant l'attribut style. Cette méthode n'est à utiliser qu'en **dernier recours**, quand il n'y a vraiment pas d'autres alternatives. Le code est beaucoup plus difficile à maintenir et à uniformiser quand les règles sont déclarées de cette façon.
+La dernière méthode consiste à inclure les règles directement dans une balise html en utilisant l'attribut style.
 
-```css
+```css title="Ajout directement dans une balise HTML"
 <h1 style="color:red;font-size:5em">
 ```
+
+!!! warning "À utiliser avec précaution"
+
+    Cette méthode n'est à utiliser qu'en **dernier recours**, quand il n'y a vraiment pas d'autres alternatives. 
+    
+    - Le code est beaucoup plus difficile à maintenir et à uniformiser quand les règles sont déclarées de cette façon.
+    - Si vous voulez appliquer des règles à une balise unique, ajoutez lui un id et sélectionnez-le dans un fichier css.
 
 ## Les sélecteurs CSS
 
@@ -250,3 +276,8 @@ Plus le sélecteur est précis, plus la priorité sera élevée. En partant de l
 
 En réalité le calcul est beaucoup plus complexe mais on peut facilement s'en tenir à ce tableau.
 
+## Références
+
+Voici une référence très complète sur le CSS.
+
+- [MDN - Référence CSS](https://developer.mozilla.org/fr/docs/Web/CSS/Reference){target=_blank}
