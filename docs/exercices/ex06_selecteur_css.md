@@ -29,7 +29,7 @@
 
 !!! Attention
 
-    Pour les prochaines consignes, vous allez devoir rechecher par vous-même les propriétés à utiliser. C'est impossible de toutes les retenir par coeur et vous devez apprendre à faire vos propores recherche pour trouver l'information. 
+    Pour les prochaines consignes, vous allez devoir rechecher par vous-même les propriétés à utiliser. C'est impossible de toutes les retenir par coeur et vous devez apprendre à faire vos propres recherche pour trouver l'information. 
     
     Assurez vous aussi de **bien comprendre les solutions** que vous mettez en place.
 

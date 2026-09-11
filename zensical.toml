@@ -51,6 +51,7 @@ nav = [
     {"Organisation des fichiers" = "notes/workspace/structure.md"},
     {"Gestions des projets" = "notes/workspace/creation.md"},
     {"Extrait de code" = "notes/workspace/snippet.md"},
+    { "Configuration de VSCode" = "notes/workspace/config_vscode.md" },
   ]},
   { "Notes de cours" = [
     { "HTML" = [

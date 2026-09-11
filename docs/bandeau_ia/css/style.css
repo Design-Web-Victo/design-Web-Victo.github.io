@@ -2,17 +2,17 @@
     --vert-fonce: rgba(204, 214, 2);
     --vert-clair: rgba(204, 214, 2, 0.25);
 
-    display:flex;
-    align-items:center;
-    gap:1rem;
-    padding:0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem;
     background-color: var(--vert-clair);
     border-radius: 0.5rem;
     border: 2px solid var(--vert-fonce);
 
     a {
-        display:flex;
-        align-items:center;
+        display: flex;
+        align-items: center;
         gap: 1rem;
         text-decoration: none;
         color: inherit;
@@ -23,7 +23,7 @@
     }
 }
 
-.fit{
+.fit {
     width: fit-content;
     padding-right: 1rem;
 }
@@ -36,21 +36,21 @@
     --vert-fonce: rgba(204, 214, 2);
     --vert-clair: rgba(204, 214, 2, 0.25);
 
-    display:flex;
-    align-items:stretch;
-    gap:0.5rem;
-    padding:0.5rem;
+    display: flex;
+    align-items: stretch;
+    gap: 0.5rem;
+    padding: 0.5rem;
     background-color: var(--vert-clair);
     border-radius: 0.5rem;
     border: 2px solid var(--vert-fonce);
     color: rgba(0, 0, 0, 0.6);
 
     .ia-titre {
-        font-size: 1.25rem; 
+        font-size: 1.25rem;
     }
 
     .accent {
-        font-weight: bold; 
+        font-weight: bold;
     }
 
     .colonne-description {
