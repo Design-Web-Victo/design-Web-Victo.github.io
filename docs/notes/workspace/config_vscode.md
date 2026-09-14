@@ -31,7 +31,9 @@ Utilisez la combinaison suivante dans votre fichier : `Shift + Alt + F`
   ![indentation_body01.png](../../images/indentation_body01.png){.center .shadow}
   <figcaption>Attention à choisir l'option JSON.</figcaption>
 </figure>
-
+     
+              
+                      
 - Ajoutez à la fin du fichier la ligne suivante : `"html.format.indentInnerHtml": true`
 
 <figure markdown>

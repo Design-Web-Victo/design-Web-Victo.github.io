@@ -19,7 +19,7 @@ L'idée générale de Flexbox est qu'on englobe le contenu avec lequel on veut t
 Voici un schéma qui résume la disposition des éléments : 
 
 <figure markdown>
-  ![css-flexbox01.png](../../assets/images/css-flexbox01.png){.center .shadow}
+  ![css-flexbox01.png](../../images/css-flexbox01.png){.center .shadow}
   <figcaption></figcaption>
 </figure>
 
@@ -57,7 +57,7 @@ C'est avec cette propriété qu'on va définir le sens de distribution des items
 - `space-evenly` : Les items sont distribuéé pour que l'espace entre chaque soit la même.
 
 <figure markdown>
-  ![css-flexbox04](../../assets/images/css-flexbox04.png){.center .shadow}
+  ![css-flexbox04](../../images/css-flexbox04.png){.center .shadow}
   <figcaption><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-justify-content" target="_blank">CSS-Tricks - justify-content</a></figcaption>
 </figure>
 
@@ -71,7 +71,7 @@ Détermine comment les items seront alignés selon l'axe secondaire (cross axis)
 - `center` : les items sont centrés selon l'axe secondaire
 
 <figure markdown>
-  ![css-flexbox02](../../assets/images/css-flexbox02.png){.center .shadow}
+  ![css-flexbox02](../../images/css-flexbox02.png){.center .shadow}
   <figcaption><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-align-items" target="_blank">CSS-Tricks - align-items</a></figcaption>
 </figure>
 
@@ -80,7 +80,7 @@ Détermine comment les items seront alignés selon l'axe secondaire (cross axis)
 Cette propriété est effective ==seulement quand il y a plusieurs lignes d'items dans le conteneur==. C'est un peu le même principe que pour la propriété justify-content mais au niveau de l'axe secondaire (cross axis). Les valeurs possibles sont les suivantes: 
 
 <figure markdown>
-  ![css-flexbox04](../../assets/images/css-flexbox04.png){.center .shadow}
+  ![css-flexbox04](../../images/css-flexbox04.png){.center .shadow}
   <figcaption><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-align-content" target="_blank">CSS-Tricks - align-content</a></figcaption>
 </figure>
 
@@ -107,7 +107,7 @@ flex-flow: row-reverse wrap;
 Définie la capacité pour un item de s'agrandir quand c'est nécessaire. La propriété indique quel quantité d'espace "restant" du conteneur l'item peut utiliser pour s'agrandir. La valeur de la propriété est un entier positif sans unité de mesure qui représente une proportion. Si j'ai par exemple trois items et que je leur défini la propriété flex-grow à 1, les trois items auront la même dimension. Par contre si un des items à une valeur de 2 et les autres 1, le premier item sera 2 fois plus grand que les deux autres.
 
 <figure markdown>
-  ![css-flexbox05](../../assets/images/css-flexbox05.png){.center .shadow}
+  ![css-flexbox05](../../images/css-flexbox05.png){.center .shadow}
   <figcaption><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flex-grow" target="_blank">CSS-Tricks - flex-grow</a></figcaption>
 </figure>
 
@@ -137,7 +137,7 @@ flex-basis: 25%;
 Permet d'outrepasser l'alignement par défaut pour un item. Les valeurs possible sont les mêmes que pour align-items.
 
 <figure markdown>
-  ![css-flexbox06](../../assets/images/css-flexbox06.png){.center .shadow}
+  ![css-flexbox06](../../images/css-flexbox06.png){.center .shadow}
   <figcaption><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#align-self" target="_blank">CSS-Tricks - align-self</a></figcaption>
 </figure>
 

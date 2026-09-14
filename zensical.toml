@@ -74,7 +74,8 @@ nav = [
       { "Le modèle de boite" = "notes/css/boxmodel.md" },
       { "Unités de mesure" = "notes/css/unitesmesure.md" },
       { "Polices de caractères" = "notes/css/font.md" },
-      # { "Variables CSS" = "notes/css/variable.md" },
+      { "Variables CSS" = "notes/css/variable.md" },
+      { "Flexbox" = "notes/css/flexbox.md" },
       # { "Imbrication" = "notes/css/imbrication.md"},
     ]},
     { "Les images" = [
@@ -96,7 +97,8 @@ nav = [
     { "03 - Tableau et liste à puce" = "exercices/ex03_tableau.md" },
     { "04 - Intégration multimedia" = "exercices/ex04_multimedia.md" },
     { "05 - Modification d'une maquette" = "exercices/ex05_maquette.md" },
-    { "06 - Les sélecteurs CSS" = "exercices/ex06_selecteur_css.md"}
+    { "06 - Les sélecteurs CSS" = "exercices/ex06_selecteur_css.md"},
+    { "07 - La typographie" = "exercices/ex07_font.md"}
   ]},
   { "Utilisation de l'ia" = "utilisation_ia.md" },
 ]
