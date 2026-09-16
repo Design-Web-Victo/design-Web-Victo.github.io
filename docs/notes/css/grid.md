@@ -71,7 +71,7 @@ CSS
 
 Résultat
 
-![css-grid01](../../assets/images/css-grid01.png)
+![css-grid01](../../images/css-grid01.png)
 
 ## Propriétés du Grid Container
 
@@ -217,7 +217,7 @@ CSS
 
 Résultat
 
-![css-grid02](../../assets/images/css-grid02.png)
+![css-grid02](../../images/css-grid02.png)
 
 ## Propriété des Grid items
 
@@ -225,7 +225,7 @@ Résultat
 
 Permet de déterminer à partir de quelle colonne l'item commence et à quelle colonne il se termine. Pour déterminer le numéro de ligne, il faut s'imaginer notre grille qui commence par une ligne avant la première cellule, comme dans l'image suivante : 
 
-![css-grid03](../../assets/images/css-grid03.png)
+![css-grid03](../../images/css-grid03.png)
 
 Donc si on veut que le premier item soit disposé dans les colonnes 1 et 2 de la première ligne, on aurait les valeurs suivantes : 
 

@@ -2,9 +2,14 @@
 
 ## Mise en place de l'exercice
 
-- Dans cet exercice vous devez reproduire la disposition de ce site : [https://www.wimpdecaf.com/](https://www.wimpdecaf.com/){target=_blank}. Lisez bien les indications plus bas, ce n'est pas tout le site qui est à reproduire.
-- Clonez le projet de départ avec le lien Github Classroom que votre enseignant vous fournira.
-- Vous avez déjà un fichier html avec un début de structure et un fichier css avec des variables à utiliser.
+Dans cet exercice vous devez reproduire la disposition de ce site : [https://www.wimpdecaf.com/](https://www.wimpdecaf.com/){target=_blank}. 
+
+!!! note ""
+
+    Lisez bien les indications plus bas, ce n'est pas tout le site qui est à reproduire.
+
+- Téléchargez le projet de départ et copiez le dans votre répertoire de cours : [ex09_flexbox_depart.zip](../../ressources/ex09_flexbox_depart.zip){target=_blank}.
+- Vous avez déjà un fichier **index.html** avec un début de structure et un fichier **styles.css** avec des variables et une police à utiliser.
 - J'ai divisé l'exercice en deux parties, je vous conseille de les réaliser une à la suite.
 
 ## Valeur par défaut de la page
@@ -16,7 +21,7 @@
 ## Partie 1 - L'entête de la page
 
 <figure markdown>
-  ![Entête](../assets/images/ex09_entete.png){.center .shadow}
+  ![Entête](../../images/ex09_entete.png){.center .shadow}
   <figcaption>Aperçu de l'entête</figcaption>
 </figure>
 
@@ -25,13 +30,13 @@
 - Utilisez la variable `--border-radius` pour régler les coins arrondis.
 - Les éléments de l'entête doivent tous être centrés verticalement.
 - Divisez votre entête en trois section : 
-  - L'image de logo à gauche
-  - Une section `<nav>` au centre
-  - 2 icônes à droite.
+    1. L'image de logo à gauche
+    2. Une section `<nav>` au centre
+    3. 2 icônes à droite.
 - Utilisez **Flexbox** pour bien disposer les trois sections (Utilisez les propriétés qui vous semblent les plus appropriées)
 
 <figure markdown>
-  ![Division Flexbox de l'entête](../assets/images/ex09_entete_flexbox.png){.center .shadow}
+  ![Division Flexbox de l'entête](../../images/ex09_entete_flexbox.png){.center .shadow}
   <figcaption>Division Flexbox de l'entête</figcaption>
 </figure>
 
@@ -45,20 +50,20 @@
 - Pour la section menu, utilisez une liste à puce pour les 4 items (*Decaf Menu*, *The Blog*, *Why Decaf* et *FAQs*)
 - Ensuite à l'aide de Flexbox que vous appliquerez sur la balise `<ul>` alignez les items et enlevez la puce avec une règle CSS.
 - Les 4 items sont des liens hypertextes qui pour l'instant ont l'url **#**.
-- Utilisez le SVG de flèche présent dans le fichier **index.html** pour la flèche à droite de *Decaf Menu*. Elle fait aussi partie du lien hypertexte.
+- Utilisez le SVG de flèche présent dans le fichier **index.html** pour la flèche à droite de *Decaf Menu*. ==La flèche fait aussi partie du lien hypertexte==.
 - Créez une classe CSS qui aura l'unique rôle de mettre le texte en caractère gras. 
 - Appliquez cette classe au premier item du menu.
 
 ### Les icônes
 
-- Les deux icônes sont des SVG qui sont déjè en commentaire dans le fichier **index.html**.
+- Les icônes utilisateur et panier sont des SVG qui sont déjà présent dans le fichier **index.html**.
 - Tout comme les items du menu, ce sont des liens hypertextes avec l'url **#**.
 - Assurez vous qu'ils soient centrés verticalement et espacés convenablement entre eux.
 
 ## Partie 2 - La section principale
 
 <figure markdown>
-  ![Section principale](../assets/images/ex09_main.png){.center .shadow}
+  ![Section principale](../../images/ex09_main.png){.center .shadow}
   <figcaption>Aperçu de la section principale</figcaption>
 </figure>
 
@@ -95,6 +100,6 @@
 - Le curseur de la souris devient une main quand on est sur le bouton.
 
 <figure markdown>
-  ![Résultat final](../assets/images/ex09_final.png){.center .shadow}
+  ![Résultat final](../../images/ex09_final.png){.center .shadow}
   <figcaption>Résultat final</figcaption>
 </figure>

@@ -75,8 +75,14 @@ nav = [
       { "Unités de mesure" = "notes/css/unitesmesure.md" },
       { "Polices de caractères" = "notes/css/font.md" },
       { "Variables CSS" = "notes/css/variable.md" },
+      { "Imbrication" = "notes/css/imbrication.md"},
+      { "Position" = "notes/css/position.md"},
       { "Flexbox" = "notes/css/flexbox.md" },
-      # { "Imbrication" = "notes/css/imbrication.md"},
+      { "Grid" = "notes/css/grid.md" },
+      { "Animation CSS" = "notes/css/animation.md"},
+      { "Media query" = "notes/css/mediaquery.md"},
+      
+
     ]},
     { "Les images" = [
       { "Type d'images" = "notes/images/image_type.md" },
@@ -88,6 +94,7 @@ nav = [
     { "Git" = [
       { "Le versionnage de fichiers avec GIT" = "notes/git/git_basics.md" },
     ]},
+    { "Créer des sites web adaptatifs" = "notes/responsive_design.md" },
     { "Ressources utiles" = "notes/ressources.md" },
   ]},
   { "Exercices" = [
@@ -98,8 +105,18 @@ nav = [
     { "04 - Intégration multimedia" = "exercices/ex04_multimedia.md" },
     { "05 - Modification d'une maquette" = "exercices/ex05_maquette.md" },
     { "06 - Les sélecteurs CSS" = "exercices/ex06_selecteur_css.md"},
-    { "07 - La typographie" = "exercices/ex07_font.md"}
+    { "07 - La typographie" = "exercices/ex07_font.md" },
+    { "08 - Introduction à Flexbox" = "exercices/ex08_intro_flexbox.md" },
+    { "09 - Mise en page Flexbox" = "exercices/ex09_flexbox.md" },
+    { "10 - CSS Grid" = "exercices/ex10_grid.md" },
+    { "11 - Animation CSS" = "exercices/ex11_animation.md" },
+    { "12 - Media query" = "exercices/ex12_media_query.md" },
   ]},
+  #{ "Révision" = [
+  #  { "HTML et CSS" = [
+  #    { "Formatif HTML" = "revision/formatif.md"},
+  #  ]},
+  #]},
   { "Utilisation de l'ia" = "utilisation_ia.md" },
 ]
 
