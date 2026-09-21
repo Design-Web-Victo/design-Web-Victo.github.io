@@ -6,6 +6,43 @@ Après les grenouilles et les zombies, on va maintenant arroser un jardin avec l
 
 ![ex08_01](../../images/ex10_01.png){.center .shadow}
 
+??? tip "Réponses de l'exercice"
+
+    Les réponses à tous les numéros de l'exercice pour vous auto-corriger
+
+    ``````css
+    1.  grid-column-start: 3;
+    2.  grid-column-start: 5;
+    3.  grid-column-end:4;
+    4.  grid-column-end:2;
+    5.  grid-column-end:-2;
+    6.  grid-column-start:-3;
+    7.  grid-column-end:span 2;
+    8.  grid-column-end: span 5;
+    9.  grid-column-start: span 3;
+    10. grid-column: 4/6;
+    11. grid-column: 2/span 3;
+    12. grid-row-start: 3;
+    13. grid-row-start: 3;
+    14. grid-column: 2;
+        grid-row: 5;
+    15. grid-column: 2/-1;
+        grid-row: 1/-1;
+    16. grid-area: 1 / 2 / span 3 / span 4;
+    17. grid-area: 2 / 3 / span 3 / span 3;
+    18. order: 3;
+    19. order : -1;
+    20. grid-template-columns: 50%;
+    21. grid-template-columns: repeat(8, 12.5%);
+    22. grid-template-columns: 100px 3em 40%;
+    23. grid-template-columns: 1fr 5fr;
+    24. grid-template-columns: 50px repeat(3,1fr) 50px;
+    25. grid-template-columns: 75px 3fr 2fr;
+    26. grid-template-rows: 41px repeat(3, 3px) 1fr;
+    27. grid-template: 60% / 200px;
+    28. grid-template: 1fr 50px / 20% 1fr;
+    ``````
+
 ## Partie 2
 
 Dans votre dossier designweb créez un sous-dossier nommé **ex10_grid** ou vous allez créer les fichiers des parties 2 et 3 de cet exercice.
