@@ -8,6 +8,12 @@ Dans cet exercice vous devez reproduire la disposition de ce site : [https://www
 
     Lisez bien les indications plus bas, ce n'est pas tout le site qui est à reproduire.
 
+<figure markdown>
+  ![Résultat final](../../images/ex09_final.png){.center .shadow}
+  <figcaption>Résultat final (<a href="../images/ex09_final.png">taille réelle</a>)</figcaption>
+</figure>
+
+
 - Téléchargez le projet de départ et copiez le dans votre répertoire de cours : [ex09_flexbox_depart.zip](../../ressources/ex09_flexbox_depart.zip){target=_blank}.
 - Vous avez déjà un fichier **index.html** avec un début de structure et un fichier **styles.css** avec des variables et une police à utiliser.
 - J'ai divisé l'exercice en deux parties, je vous conseille de les réaliser une à la suite.
@@ -99,7 +105,6 @@ Dans cet exercice vous devez reproduire la disposition de ce site : [https://www
 - Utilisez une balise `<button>` ou une balise `<a>` pour simuler le bouton.
 - Le curseur de la souris devient une main quand on est sur le bouton.
 
-<figure markdown>
-  ![Résultat final](../../images/ex09_final.png){.center .shadow}
-  <figcaption>Résultat final</figcaption>
-</figure>
+## Auto-correction
+
+- Voici ma version de l'exercice pour vous aider à valider votre code: [ex09_version_prof.zip](../../ressources/ex09_version_prof.zip){target=_blank}.
