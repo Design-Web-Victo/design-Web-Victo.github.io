@@ -20,10 +20,8 @@ Votre équipe doit ajouter des animations dans la page internet d'un client. Il 
 
 ## Initialisation et remise
 
-- Créez un dépôt nommé **dw_ex11_animation** sur Github
-- Clonez le dépôt sur votre portable et réalisez l'exercice
-- Une fois terminé, créez une version de votre exercice (add, commit) et poussez le (push) sur Github.
-- Remettez le devoir Teams avec l'url vers votre dépot.
+- Créez un nouveau projet nommé **dw_ex11_animation**
+- Une fois terminé, créez compressez votre travail et remettez le dans un devoir Teams.
 
 ## Intégrité académique
 
@@ -58,7 +56,7 @@ Votre client aimerait beaucoup présenter son équipe avec des cartes animées c
 - [ ] Les cartes ont une dimensions de 300 X 300 pixels.
 - [ ] Vous devez aussi créer un conteneur qui va contenir les cartes. 
 - [ ] On peut ajouter un nombre x de cartes et les cartes supplémentaires qui n'entre pas dans le conteneur seront disposé sur une nouvelle ligne.
-- [ ] Le client que la section avec le nom de la personne apparaisse sous l'image et que l'image soit déplacé vers le haut uniquement.
+- [ ] Le client veut que la section avec le nom de la personne apparaisse sous l'image et que l'image soit déplacé vers le haut uniquement.
 - [ ] Il aimerait aussi que vous ajoutiez sous le poste de la personne une ligne avec deux icônes centrés horizontalement: un icône vers le profile LinkedIn et un autre pour le courriel de la personne.
 - [ ] Utilisez l'icône officiel de LinkedIn et un icône représentatif d'un courriel. Les icônes doivent être des fichiers images situés dans votre prototype.
 - [ ] Ces icônes doivent diriger l'utilisateur vers l'url # pour LinkedIn et mailto:# pour le courriel.
