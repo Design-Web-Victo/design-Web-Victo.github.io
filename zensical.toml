@@ -112,11 +112,14 @@ nav = [
     { "11 - Animation CSS" = "exercices/ex11_animation.md" },
     { "12 - Media query" = "exercices/ex12_media_query.md" },
   ]},
-  #{ "Révision" = [
-  #  { "HTML et CSS" = [
-  #    { "Formatif HTML" = "revision/formatif.md"},
-  #  ]},
-  #]},
+  { "Révision" = [
+    { "HTML et CSS" = [
+      { "Formatif HTML" = "revision/formatif.md"},
+      { "Revision A" = "revision/examen1_revision_a.md" },
+      { "Revision B" = "revision/examen1_revision_b.md" },
+      { "Revision C" = "revision/examen1_revision_c.md" },
+    ]},
+  ]},
   { "Utilisation de l'ia" = "utilisation_ia.md" },
 ]
 

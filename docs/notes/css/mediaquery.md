@@ -88,7 +88,11 @@ Exemple, je veux appliquer une règle si la largeur de l'écran est inférieur o
 }
 ``````
 
-Avec les nouvelles spécifications css on peut maintenant utiliser les caractères >, < et = au lieu de **min-** et **max-**. Ça donne une requête qui est visuellement plus facile à comprendre. La même exemple plus haut réécrite de cette façon : 
+!!! important "Utilisation des caractères > et <"
+
+    Avec les nouvelles spécifications css on peut maintenant utiliser les caractères >, < et = au lieu de **min-** et **max-**. Ça donne une requête qui est visuellement plus facile à comprendre. 
+    
+La même exemple plus haut réécrite de cette façon : 
 
 ``````css
 @media  screen and (width <= 680px) {
@@ -176,7 +180,7 @@ Ici la couleur du texte des paragraphes changera selon la dimension de l'écran.
 
 ### Ordre des médias queries
 
-On a vu que le css appliquait les règles en cascade, l'une après l'autre. C'est aussi le cas avec les médias queries. Si vous en avez plusieurs, faites attention à l'ordre dans lesquelles vous les définissez. Voici un petit exemple où je change la couleur de fond de la page selon la largeur de l'écran. 
+On a vu que le css appliquait les règles en cascade, l'une après l'autre. C'est aussi le cas avec les médias queries. Si vous en avez plusieurs, ==porter attention à l'ordre dans lesquelles vous les définissez==. Voici un petit exemple où je change la couleur de fond de la page selon la largeur de l'écran. 
 
 ``````css
 body {

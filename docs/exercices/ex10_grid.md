@@ -167,3 +167,7 @@ La deuxième partie du texte est simplement affiché dans la colonne de droite
 </section>
 ``````
 
+## Auto-correction
+
+- Voici ma version de l'exercice pour vous aider à valider votre code: [ex10_version_prof.zip](../../ressources/ex10_version_prof.zip){target=_blank}.
+
