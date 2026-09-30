@@ -113,6 +113,7 @@ nav = [
     { "12 - Media query" = "exercices/ex12_media_query.md" },
   ]},
   { "Révision" = [
+    { "Guide de révision" = "revision/guide.md" },
     { "HTML et CSS" = [
       { "Formatif HTML" = "revision/formatif.md"},
       { "Revision A" = "revision/examen1_revision_a.md" },
