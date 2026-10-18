@@ -81,8 +81,22 @@ nav = [
       { "Grid" = "notes/css/grid.md" },
       { "Animation CSS" = "notes/css/animation.md"},
       { "Media query" = "notes/css/mediaquery.md"},
-      
-
+    ]},
+    { "JavaScript" = [
+      { "Ajouter un script" = "notes/js/js_script.md" },
+      { "Syntaxe du langage" = "notes/js/js_syntaxe.md" },
+      { "Qualité du code"  = "notes/js/js_qualite_code.md" },
+      { "Débugger nos scripts" = "notes/js/js_debug.md" },
+      { "Gabarit de script" = "notes/js/js_template.md" },
+      { "Les conditions" = "notes/js/js_condition.md" },
+      { "Les fonctions en JS" = "notes/js/js_function.md" },
+      { "Les tableaux" = "notes/js/js_array.md" },
+      { "Sélectionner un élément HTML" = "notes/js/js_getelement.md" },
+      { "Les événements" = "notes/js/js_event.md" },
+      { "Créer, modifier et supprimer des éléments HTML" = "notes/js/js_create_element.md" },
+      { "Manipuler les attributs HTML" = "notes/js/js_attribute.md" },
+      { "Stocker des informations dans le navigateur" = "notes/js/js_local_storage.md" },
+      { "Cours en ligne" = "notes/js/js_cours.md" },
     ]},
     { "Les images" = [
       { "Type d'images" = "notes/images/image_type.md" },
@@ -93,6 +107,10 @@ nav = [
     ]},
     { "Git" = [
       { "Le versionnage de fichiers avec GIT" = "notes/git/git_basics.md" },
+      { "Aide-mémoire des commandes" = "notes/git/cheatsheet.md" },
+      { "Github" = "notes/git/github.md" },
+      { "Utiliser git dans VS Code" = "notes/git/vs_code.md" },
+      { "Héberger un site sur Github Pages" = "notes/git/githubpages.md" },
     ]},
     { "Créer des sites web adaptatifs" = "notes/responsive_design.md" },
     { "Ressources utiles" = "notes/ressources.md" },
@@ -111,6 +129,12 @@ nav = [
     { "10 - CSS Grid" = "exercices/ex10_grid.md" },
     { "11 - Animation CSS" = "exercices/ex11_animation.md" },
     { "12 - Media query" = "exercices/ex12_media_query.md" },
+    { "13 - Tableau en JavaScript" = "exercices/ex13_js_array.md" },
+    { "14 - Gestion d'un catalogue de livres" = "exercices/ex14_js_object.md" },
+    { "15 - Compteur de click" = "exercices/ex15_event.md" },
+    { "Bonus" = [
+      { "Calculatrice" = "exercices/bonus/calculatrice.md"}
+    ]},
   ]},
   { "Révision" = [
     { "Guide de révision" = "revision/guide.md" },

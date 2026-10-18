@@ -6,6 +6,7 @@ Git est un logiciel de gestion de version. Son rôle est de suivre les modificat
 
 <figure markdown>
   ![git_workflow](../../images/git_basics_01.png){.center .shadow}
+  <figcaption><a href="https://github.com/NETWAYS/gitlab-training/issues/36" target="_blank">Source</a></figcaption>
 </figure>
 
 Le cycle de vie d'un fichier avec Git est le suivant : on travaille sur le fichier dans un répertoire qui contient un dépôt Git. Une fois les modifications terminées, on indique à Git d'ajouter le fichier dans la file d'attente du prochain commit avec la commande **git add**. Quand on est prêt à officialiser les changements, on créer un commit avec la commande **git commit**. Ensuite on peut aussi envoyer le commit à un serveur distant avec la commande **git push**. Les changements sont maintenant inclus dans une nouvelle version et on recommence le cycle.
@@ -104,7 +105,12 @@ git push
 Une fois votre dépôt bien configuré, quand vous avez des changements à appliquer, vous n'avez qu'à faire les trois commandes suivantes : 
 
 ``````bash
+# Ajouter les fichiers modifiés dans la file d'attente
 git add .
+# Valider le contenu de la file d'attente avant de faire le commit
+git status
+# Créer un commit avec le contenu de la file d'attente
 git commit -m "Nom du commit"
+# Pousser le commit sur un dépot distant (optionnel)
 git push
 ``````
