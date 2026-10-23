@@ -133,6 +133,8 @@ nav = [
     { "13 - Tableau en JavaScript" = "exercices/ex13_js_array.md" },
     { "14 - Gestion d'un catalogue de livres" = "exercices/ex14_js_object.md" },
     { "15 - Compteur de click" = "exercices/ex15_event.md" },
+    { "16 - Galerie d'images" = "exercices/ex16_image_gallery.md" },
+    { "17 - Liste de tâches" = "exercices/ex17_todo.md" },
     { "Bonus" = [
       { "Calculatrice" = "exercices/bonus/calculatrice.md"}
     ]},

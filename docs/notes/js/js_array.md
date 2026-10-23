@@ -229,6 +229,11 @@ let produits = [
 - [x] Quand vous aurez terminé l'exercice, créez un commit nommé "Exercices tableaux" et envoyez-le sur GitHub (git push)
 
 
+## Pour aller plus loin
+
+Vous pouvez faire l'[exercice 13](../../exercices/ex13_js_array.md) pour continuer à expérimenter avec les tableaux.
+
+
 ## Références
 
 - [Le Tutoriel JavaScript Moderne - Arrays](https://fr.javascript.info/array){target=_blank}

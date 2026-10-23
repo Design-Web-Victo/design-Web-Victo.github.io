@@ -46,3 +46,100 @@ console.log(livre.titre);
 console.log(livre["titre"]);
 ```
 
+## Modifier, ajouter et supprimer des propriétés
+
+On modifie la valeur d'une propriété de la même façon qu'on le fait avec une variable: 
+
+```javascript title="Modifier une propriété"
+livre.parution = 2018;
+```
+
+Si on fait référence à une propriété qui n'existe pas, elle sera ajoutée:
+```javascript title="Ajouter une propriété"
+livre.note = 8;
+```
+
+Pour supprimer une propriété on utilise l'opérateur `delete`
+```javascript title="Supprimer une propriété"
+delete livre.note;
+```
+
+## Objets impriqués
+
+Il est possible d'imbriquer un objet dans un objet. 
+
+```javascript
+const etudiant = {
+    nom: "Alex",
+    age: 19,
+    adresse: {
+        ville: "Victoriaville",
+        codePostal: "G6P 1A1"
+    }
+};
+```
+
+Dans cet exemple, si on veut accéder à la valeur de la propriété ville on doit enchaîner les propriétés:
+```javascript
+console.log(etudiant.adresse.ville);
+```
+
+## Parcourir les propriétés d'un objet
+
+On peut parcourir les propriétés d'un objet avec une boucle `for...in`
+
+```javascript
+const jeu = {
+    titre: "Minecraft",
+    prix: 39.99,
+    genre: "Sandbox"
+};
+
+for (const propriete in jeu) {
+    console.log(propriete);
+}
+
+// Affichera :
+// titre
+// prix
+// genre
+```
+
+Pour afficher les valeurs de chaque propriété, on peut utiliser la notation par crochet:
+
+```javascript
+for (const propriete in jeu) {
+    console.log(jeu[propriete]);
+}
+```
+
+## Tableaux d'objets
+
+Il est très courant d'avoir des objets dans un tableau.
+
+```javascript
+const jeux = [
+    {
+        titre: "Minecraft",
+        genre: "Sandbox",
+        prix: 39.99
+    },
+    {
+        titre: "Stardew Valley",
+        genre: "Simulation",
+        prix: 17.99
+    },
+    {
+        titre: "Hades",
+        genre: "Action",
+        prix: 32.99
+    }
+];
+```
+
+Pour accéder aux valeurs, on utilise les mêmes techniques que pour les tableaux et les objets.
+
+```javascript
+console.log(jeux[0].titre);
+// Afficher "Minecraft"
+```
