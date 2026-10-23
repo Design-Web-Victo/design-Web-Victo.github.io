@@ -113,7 +113,7 @@ Avec `array.forEach()`:
 ```js
 let fruits = ["Pomme", "Orange", "Poire"];
 
-fruits.foreach((fruit) => {
+fruits.forEach((fruit) => {
     console.log(fruit);
 });
 ```
@@ -126,12 +126,12 @@ Voici quelques opérations plus avancés sur les tableaux. Elles utilisent tous 
 
 **`array.find()`**
 
-Pour trouver le premier élément du tableau correspondant à une condition.
+Pour trouver ==le premier élément== du tableau correspondant à une condition.
 
 ```js
 let ages = [18, 21, 43, 25, 20];
 
-let resultat = ages.find((age) => age > 40);
+let resultat = ages.find((age) => { return age > 40 });
 
 console.log(resultat); // 43
 ```
@@ -156,11 +156,11 @@ Retourne un nouveau tableau en modifiant tous les éléments du tableau d'origin
 ```js
 let nombres = [1, 2, 3, 4];
 
-let double = nombres.map((nombre) => {
+let nombresDouble = nombres.map((nombre) => {
   return nombre * 2;
 });
 
-console.log(double); // [2, 4, 6, 8]
+console.log(nombresDouble); // [2, 4, 6, 8]
 ```
 
 ## Exercices
