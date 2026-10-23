@@ -91,6 +91,7 @@ nav = [
       { "Les conditions" = "notes/js/js_condition.md" },
       { "Les fonctions en JS" = "notes/js/js_function.md" },
       { "Les tableaux" = "notes/js/js_array.md" },
+      { "Les objets" = "notes/js/js_object.md" },
       { "Sélectionner un élément HTML" = "notes/js/js_getelement.md" },
       { "Les événements" = "notes/js/js_event.md" },
       { "Créer, modifier et supprimer des éléments HTML" = "notes/js/js_create_element.md" },

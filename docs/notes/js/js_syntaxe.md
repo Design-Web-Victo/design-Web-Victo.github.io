@@ -143,7 +143,7 @@ On peut concaténer plusieurs variables ensembles
 ```js
 let prenom = "Mathieu";
 let langage = "JavaScript";
-let message = "Je m'appelle " + prenom + " et j'aime le " + JavaScript;
+let message = "Je m'appelle " + prenom + " et j'aime le " + langage;
 console.log(message); // Je m'appelle Mathieu et j'aime le JavaScript
 ```
 
