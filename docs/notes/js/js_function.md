@@ -100,7 +100,7 @@ monBouton.addEventListener('click', () => {
 
 ## Exercices
 
-- Dans le répertoire **js** votre projet **exercices_js**, ajoutez et liez le un fichier **syntaxe.js**. 
+- Dans le répertoire **js** votre projet **exercices_js**, ajoutez et liez le un fichier **fonctions.js**. 
 - Commentez les liens vers les autres fichiers de script des exercices précédents.
 - Réalisez les exercices suivants dans un fichier JS
 - Vous devez documenter toutes les fonctions que vous allez créer : [Documenter les fonctions](./js_qualite_code/#documenter-les-fonctions){target=_blank}
