@@ -6,7 +6,6 @@
 - Clonez le dépôt sur votre portable et réalisez l'exercice
 - Vous devez créer un fichier JavaScript qui contiendra le script et le relier à une page html.
 - Une fois terminé, créez une version de votre exercice (add, commit) et poussez le (push) sur Github.
-- Remettez le devoir Teams avec l'url vers votre dépot.
 
 ## Énoncé
 
