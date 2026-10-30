@@ -136,7 +136,8 @@ nav = [
     { "16 - Galerie d'images" = "exercices/ex16_image_gallery.md" },
     { "17 - Liste de tâches" = "exercices/ex17_todo.md" },
     { "Bonus" = [
-      { "Calculatrice" = "exercices/bonus/calculatrice.md"}
+      { "Calculatrice" = "exercices/bonus/calculatrice.md"},
+      #{ "Pokemon Dash" = "exercices/bonus/pokemon_dash.md" },
     ]},
   ]},
   { "Révision" = [

@@ -70,7 +70,7 @@ Une fois que votre exercice fonctionne, remplacez les attributs onClick par l'ut
 
 ### Option 1
 
-- Ajoutez une deuxième balise `<input>` de type `numeric` qui permet d'indiquer de combien incrémenter la valeur. Par défaut, la valeur est fixée à 1. 
+- Ajoutez une deuxième balise `<input>` de type `number` qui permet d'indiquer de combien incrémenter la valeur. Par défaut, la valeur est fixée à 1. 
 - Quand on clique sur les boutons + et -, on augmente ou diminue le compteur selon la valeur présente ce nouvel input. 
 - Ajoutez un bouton permettant de réinitialiser les valeurs à 1 pour les deux zone de texte (inputs).
 

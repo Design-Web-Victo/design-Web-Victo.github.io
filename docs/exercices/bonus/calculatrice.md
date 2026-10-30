@@ -19,7 +19,7 @@ Vous devez recréer le plus fidèlement possible la maquette suivante :
 - L'écran noir et les boutons sont des divs.
 - Utilisez la stratégie de votre choix pour disposé les boutons et l'écran d'affichage.
 - Utilisez la police [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P?query=Press+Start+2P).
-- Quand on survole les boutons, créez une animation qui donnera l'effet qu'on enfonce le bouton.
+- Créez une animation qui donnera l'effet qu'on enfonce le bouton quand on clique sur le bouton ou qu'on appuie sur la touche correspondante.
 
 
 <video controls class="center">

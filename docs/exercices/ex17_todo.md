@@ -4,7 +4,7 @@
 
 - Dans cet exercice nous allons coder les fonctionnalités d'une liste de tâches.
 - La portion HTML et CSS est déjà fait, vous n'avez qu'à télécharger le projet de départ dans le devoir Teams.
-- Une fois le dépôt récupéré vous devriez avoir une page qui ressemble à ceci.
+- Téléchargez le projet de départ : [ex17_depart.zip](../ressources/ex17_depart.zip)
 
 ![ex16_01](../../images/ex16_01.png)
 

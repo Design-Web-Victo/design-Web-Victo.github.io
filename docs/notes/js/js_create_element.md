@@ -78,8 +78,16 @@ Pour supprimer un élément il suffit de le sélectionner et d'utiliser la méth
 ``````js
 // Récupère l'élément avec le id containerExemple
 let monContainer = document.getElementById("containerExemple");
-// Supprime l'élément. Attention tous les éléments qui étaient à l'intérieur de cet élément seront aussi supprimé.
+// Supprime l'élément. Attention tous les éléments enfants qui étaient à l'intérieur de cet élément seront aussi supprimé.
 monContainer.remove();
+``````
+
+Pour supprimer tous les éléments enfants d'un parent utilisez la méthode **replaceChildren()**
+``````js
+// Récupère l'élément avec le id containerExemple
+let monContainer = document.getElementById("containerExemple");
+// Supprime tous les enfants sans supprimer le parent.
+monContainer.replaceChildren();
 ``````
 
 
