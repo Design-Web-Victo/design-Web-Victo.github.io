@@ -137,7 +137,7 @@ nav = [
     { "17 - Liste de tâches" = "exercices/ex17_todo.md" },
     { "Bonus" = [
       { "Calculatrice" = "exercices/bonus/calculatrice.md"},
-      #{ "Pokemon Dash" = "exercices/bonus/pokemon_dash.md" },
+      { "Pokemon Dash" = "exercices/bonus/pokemon_dash.md" },
     ]},
   ]},
   { "Révision" = [
