@@ -2,15 +2,15 @@
 
 ## Consignes générales
 
-- Téléchargez et décompressez le projet de départ disponible ici : 
+- Téléchargez et décompressez le projet de départ disponible ici : [bonus_pokemon_dash.zip](../../ressources/bonus_pokemon_dash.zip){target=_blank}
 - Avant de commencer les modifications, je vous conseille de vous faire une copie de sauvegarde du projet de départ.
 - Vous devez essayer de conserver l'esthétique du site (couleur, disposition, etc.)
 - Vous pouvez modifier tous les fichiers à l'exception de **pokemon.js** qui contient la liste des pokemons à afficher.
 - Si vous voulez ajouter des règles css, je vous conseille de le faire dans le fichier **extra.css**
 - Apportez au site les modifications suivantes et ajoutez les fonctionnalités décrites.
-- Dans certaines sections, je vous propose deux niveaux d'instructions ("Normal" et "Super Saiyan" pour plus de défis), à vous de choisir le niveau qui vous convient.
+- Pour certaines fonctionnalités je vous propose deux niveaux d'instructions ("Normal" et "Super Saiyan" pour plus de défis), à vous de choisir le niveau qui vous convient.
 
-## Ajustement de l'entête
+### 1. Ajustement de l'entête
 
 - Dans l'entête de la page, ajustez les valeurs **Total Pokémon** et **Type répertoriés** selon ce que vous avez dans le tableau d'objets `pokemons`.
 - Ces informations sont indépendantes du filtre, elles représentent toujours les valeurs du tableau de base.
@@ -26,11 +26,11 @@
     Faites une boucle sur le tableau de pokemons et une deuxième boucle imbriquée pour ajouter les types un par un dans le set. Chaque valeur dans un set doit être unique, alors vous aurez une liste de tous les types.
     Ensuite pour connaître le nombre d'éléments dans le set, utilisez la propriété `size`.
 
-## Fonction pour l'affichage dans le tableau
+### 2. Fonction d'affichage dans le tableau
 
-- Faites une copie du tableau de pokemons, c'est sur ce tableau que vous allez ensuite appliquer le tri et les filtres.
 - Créez une fonction qui ajoutera les pokemons dans le tableau.
 - Dans le projet de base vous avez déjà des exemples de ligne de données, conservez la même structure.
+- Dans le fichier style.css il y a des classes pour ajouter la couleur à chaque type. (type-normal, type-plante, etc.)
 - Pensez à remplacer les éléments qui seraient déjà dans le tableau et à ajuster le nombre de Pokemons affichés.
 - Au chargement de la page, lancez votre fonction avec le tableau de tous les Pokemons en paramêtre.
 
@@ -39,9 +39,13 @@
   <figcaption></figcaption>
 </figure>
 
-## Recherche
+### 3. Recherche
 
-## Filtre
+- Dès que le texte de la zone de recherche est modifié, affichez uniquement dans le tableau les Pokemons dont le nom commence par ce texte
+- Assurez-vous que la recherche fonctionne peu importe la case (majuscule et minuscule).
+- La recherche est en fait un filtre qu'on applique sur le tableau de Pokemons, vous pouvez utiliser les méthode `filter` et `startsWith`.
+
+### 4. Filtre sur le type
 
 Vous devez permettre de choisir un type dans la liste déroulante et de n'afficher que les Pokemons de ce type.
 
@@ -51,7 +55,11 @@ Vous devez permettre de choisir un type dans la liste déroulante et de n'affich
 - Sinon affichez uniquement les pokemons du type choisi en respectant le tri actuel.
 - Au chargement de la page le choix est à "Tous les types"
 
-## Tri
+!!! warning "Attention"
+
+    Assurez-vous que le filtre sur le type fonctionne conjointement avec la recherche par nom.
+
+### 5. Tri
 
 !!! success "Mode normal"
 
@@ -84,9 +92,18 @@ Vous devez permettre le tri pour les colonnes Id (#), nom, taille et poids en cl
 - N'oubliez pas d'ajuster l'icone de la flèche rouge. elle devrait n'être présente que sur la colonne triée et dans la bonne direction.
 
 
-## Réinitialiser les filtres
+### 5. Réinitialiser les filtres
 
-<section class="niveau-ia-production small">
+En cliquant sur le bouton, vous devez réinitialiser tous les filtres et la recherche: 
+
+- Videz la zone de texte de la recherche
+- La sélection du filtre par type est sur "Tous les types"
+- Le tri est sur le nom en ordre croissant (peu importe si vous avez fait l'option normal ou difficile)
+- Tous les Pokemons sont affichés dans la liste.
+
+## Utilisation de l'IAG
+
+<section class="niveau-ia-production">
     <div class="colonne-image">
         <img src="../../images/ia/AIA_768x1024.png" width="64">    
     </div>

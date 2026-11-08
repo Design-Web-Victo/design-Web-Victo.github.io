@@ -54,6 +54,7 @@ nav = [
     { "Configuration de VSCode" = "notes/workspace/config_vscode.md" },
   ]},
   { "Notes de cours" = [
+    { "Ressources utiles" = "notes/ressources.md" },
     { "HTML" = [
       { "Le langage HTML" = "notes/html/langage.md" },
       { "Structure de fichiers" = "notes/html/site.md" },
@@ -113,8 +114,15 @@ nav = [
       { "Utiliser git dans VS Code" = "notes/git/vs_code.md" },
       { "Héberger un site sur Github Pages" = "notes/git/githubpages.md" },
     ]},
+    { "Les formulaires" = [
+      { "Structure d'un formulaire" = "notes/formulaire/structure.md"},
+      { "Les éléments de saisie de données" = "notes/formulaire/element.md"},
+      { "Mise en forme d'un formulaire" = "notes/formulaire/style.md"},
+      { "Validation de formulaire en HTML" = "notes/formulaire/validation_html.md"},
+      { "Validation de formulaire en JS" = "notes/formulaire/validation_js.md"},
+    ]},
+    { "Afficher une fenêtre modale" = "notes/dialog.md"},
     { "Créer des sites web adaptatifs" = "notes/responsive_design.md" },
-    { "Ressources utiles" = "notes/ressources.md" },
   ]},
   { "Exercices" = [
     { "00 - Environnement de développement" = "exercices/ex00_environnement.md" },
@@ -135,6 +143,8 @@ nav = [
     { "15 - Compteur de click" = "exercices/ex15_event.md" },
     { "16 - Galerie d'images" = "exercices/ex16_image_gallery.md" },
     { "17 - Liste de tâches" = "exercices/ex17_todo.md" },
+    { "18 - Formulaire de contact" = "exercices/ex18_form.md" },
+    { "19 - Formulaire de réinitialisation de mot de passe" = "exercices/ex19_password.md"},
     { "Bonus" = [
       { "Calculatrice" = "exercices/bonus/calculatrice.md"},
       { "Pokemon Dash" = "exercices/bonus/pokemon_dash.md" },
