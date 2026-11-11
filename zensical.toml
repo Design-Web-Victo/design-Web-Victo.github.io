@@ -158,6 +158,9 @@ nav = [
       { "Revision B" = "revision/examen1_revision_b.md" },
       { "Revision C" = "revision/examen1_revision_c.md" },
     ]},
+    { "JavaScript" = [
+      { "Revision A" = "revision/examen2_revision_a.md" },
+    ]}
   ]},
   { "Utilisation de l'ia" = "utilisation_ia.md" },
 ]

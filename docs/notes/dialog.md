@@ -2,7 +2,7 @@
 
 Une fenêtre **modale** bloque l'interaction avec le reste de la page tant qu'elle est ouverte. Il y a plusieurs méthodes différentes, on va voir comment afficher une fenêtre avec l'élément HTML `<dialog>`.
 
-## 1. Structure de base
+## Structure de base
 
 ```html
 <button id="btnOuvrir">Ouvrir la modale</button>
@@ -16,7 +16,7 @@ Une fenêtre **modale** bloque l'interaction avec le reste de la page tant qu'el
 
 Par défaut, un `<dialog>` est **caché**. Il n'apparaît que lorsqu'on l'ouvre avec JavaScript (ou avec l'attribut `open`, qui l'affiche sans le rendre modal).
 
-## 2. Ouvrir et fermer avec JavaScript
+## Ouvrir et fermer avec JavaScript
 
 ```javascript
 const modale = document.getElementById('maModale');
@@ -50,7 +50,7 @@ Quand on lance la méthode `showModal()` le navigateur va automatiquement:
 - fermer la modale quand on appuie sur la touche **Échap**;
 - rendre disponible le pseudo-élément `::backdrop` pour styliser l'arrière-plan.
 
-## 3. Styliser la modale
+## Styliser la modale
 
 ```css
 dialog {
@@ -78,7 +78,7 @@ dialog::backdrop {
     }
     ```
 
-## 4. Variante : fermer avec un formulaire
+## Variante : fermer avec un formulaire
 
 Un formulaire dont la méthode est `dialog` **ne soumet rien au serveur** : il ferme simplement la boîte qui le contient. La valeur du bouton cliqué est stockée dans `returnValue`.
 
